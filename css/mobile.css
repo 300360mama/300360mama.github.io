@@ -1,0 +1,118 @@
+@media all and (max-width: 768px){
+
+
+
+section.menuIcon{
+	display: flex;
+}
+
+header, .content, footer, 
+header .navigation, header .mySlide,
+.content .services, .content .reviews,
+.content .serviceForm{
+	min-width: 100%;
+	width: 100%;
+}
+
+
+header .mySlide .play, header .mySlide .slide, 
+header .nav, header .mySlide .slogan>span,
+header .mySlide .slogan>h2>hr,
+.myContent .servicesBlock .bandera{
+	display: none;
+} 
+
+
+
+header .navigation, header .mySlide{
+	padding-left: 10px;
+	padding-right: 10px;
+	justify-content: center;
+}
+
+header .mySlide .slogan{
+	align-items: center;
+	text-align: center;
+}
+
+header .mySlide .slogan>a{
+	margin: 15px 0;
+}
+
+/* content*/
+
+.content>div>.sectionSlogan, .content>div>.myContent{
+	padding: 0 10px;
+}
+
+.content .services .myContent .servicesBlock{
+	flex-basis: 100%;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+
+.content .services .myContent .servicesBlock>section{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.myContent .servicesBlock>section{
+	width: 80%;
+}
+
+.content .reviews .myContent .reviewsBlock{
+	flex-basis: 100%;
+	margin: 15px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.content .reviews .myContent .reviewsBlock>span{
+	width: 100%;
+
+}
+
+.reviews .myContent .reviewsBlock figure{
+	display: flex;
+	align-items: flex-end;
+	margin-top: 20px;
+}
+
+.reviews .myContent .reviewsBlock figure img{
+	margin: 0 10px;
+}
+
+.serviceForm .myContent #userForm{
+	width: 80%;
+}
+
+.content .serviceForm form>section{
+	flex-basis: 100%;
+
+}
+
+}
+
+@media all and (max-width: 479px){
+
+	.services .myContent .servicesBlock .logoService{
+		display: none;
+	}
+
+	.myContent .servicesBlock>section{
+	    width: 100%;
+    }
+
+    .myContent .servicesBlock>section>ul{
+
+    }
+
+    .footerInfo span:not(:first-of-type){
+    	font-size: 13px;
+    }
+
+}

@@ -1,0 +1,179 @@
+@font-face{
+	font-family: GothamMedium;
+	src: url('../fonts/gotham/GothamPro-Medium.ttf');
+}
+
+@font-face{
+	font-family: GothamBlack;
+	src: url('../fonts/gotham/GothamPro-Black.ttf');
+}
+
+@font-face{
+	font-family: GothamBold;
+	src: url('../fonts/gotham/GothamPro-Bold.ttf');
+}
+
+@font-face{
+	font-family: GothamRegular;
+	src: url('../fonts/gotham/GothamPro.ttf');
+}
+
+@font-face{
+	font-family: BanderaRegular;
+	src: url('../fonts/BanderaPro.ttf');
+}
+
+.hideMenu ul{
+	font: 14px GothamMedium;
+	color: #3f4147;
+}
+
+.hideMenu ul a{
+	font: 18px GothamMedium;
+	color: #3f4147;
+}
+
+
+header menu li a{
+	font: 11.75px GothamMedium;
+	color: #3f4147;
+}
+header menu li a:hover{
+	color: #a70c5d;
+}
+
+header .lang{
+	font: 11px GothamBlack;
+	color: #810a47;
+
+}
+
+header .slogan h2{
+	font: 30px GothamBold;
+	color: #454545;
+}
+
+header .slogan>span{
+	font: 15px GothamRegular;
+	color: #454545;
+}
+
+header .slogan>span em{
+	font: 15px GothamBold;
+	color: #414252;
+}
+
+header .slogan>a span{
+	font: 11px GothamBlack;
+	color: #ffffff;
+}
+
+header .slogan>a i{
+	color: #ffffff;
+	font-size: 11px;
+}
+
+.content>div .sectionSlogan>h2{
+	font: 28px GothamBold;
+	color: #3f4147;
+}
+.content>div .sectionSlogan>h6{
+	font: 15px GothamRegular;
+	color: #454545;
+}
+
+.content>div .sectionSlogan>h6 em, .myContent .servicesBlock h6{
+	font: 15px GothamBold;1
+	color: #3f4147;
+}
+
+.myContent .servicesBlock ul li span{
+	font: 13px GothamRegular;
+	color: #9a9a9a;
+}
+
+.myContent .bandera{
+	font: 16px BanderaRegular;
+	color: #3f4147;
+}
+
+.myContent .servicesBlock ul li{
+	color: #a70c5d;
+}
+
+
+
+.reviewsBlock .textReview{
+	font:17px GothamRegular;
+	color: #3f4147;
+}
+
+.reviewsBlock figure .nameAuthor{
+	font:13px GothamBold;
+	color: #3f4147;
+}
+
+.reviewsBlock figure .nameAuthor:hover{
+	color: #a70c5d;
+}
+
+.reviewsBlock figure .infoAuthor{
+	font:12px GothamRegular;
+	color: #414252;
+}
+
+.reviewsBlock figure .infoAuthor em{
+	font-family: GothamBold;
+}
+
+
+#userForm .column2 label, #userForm .column1 input::placeholder{
+	font:11px GothamMedium;
+	color:#3f4147;
+}
+
+#userForm .column1 input:hover::placeholder{
+	font-family: GothamBlack;
+	cursor: pointer;
+}
+
+#userForm .column1 input:hover, #userForm .column1 ul li:hover{
+	cursor: pointer;
+}
+
+#userForm .column1 ul li:hover{
+	
+	font:  13px GothamBold;
+	color: #a70c5d;
+
+}
+
+#userForm .column1 .select>section i.fa{
+	color: #c9cacf;
+}
+
+#userForm .column1 .select>section>span{
+	color: #3f4147;
+	font: 11px GothamMedium;
+}
+
+#userForm .submit{
+	color: #ffffff;
+	font: 11px GothamBlack;
+}
+/* footer */
+
+footer{
+	color: #3f4147;
+}
+.footerInfo span{
+	font: 18px GothamRegular;
+} 
+.footerInfo span:first-child{
+	font: 11px GothamBlack;
+	
+}
+
+footer section:last-of-type{
+	font: 12px GothamBold;
+} 
